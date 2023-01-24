@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<libraryInfo home="C:\Develop\JDK\amazon-corretto-11.0.18.10.1-windows-x64-jdk\jdk11.0.18_10" version="11.0.18"/>
 <libraryInfo home="C:\Develop\JDK\zulu8.33.0.1-jdk8.0.192-win_x64" version="1.8.0_192">
 <bootpath>
 <entry path="C:\Develop\JDK\zulu8.33.0.1-jdk8.0.192-win_x64\jre\lib\resources.jar"/>
