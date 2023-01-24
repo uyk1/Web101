@@ -21,6 +21,14 @@ public class TodoDTO {
 		this.title = entity.getTitle();
 		this.done = entity.isDone();
 	}
+	
+	public static TodoEntity toEntity(final TodoDTO dto) {
+		return TodoEntity.builder()
+				.id(dto.getId())
+				.title(dto.getTitle())
+				.done(dto.isDone())
+				.build();
+	}
 }
 //여기 userId가 없는 것은, 이후 스프링 시큐리티를 이용해 인증을 구현할 것이기 때문이다.
 //유저가 자기 아이디를 넘겨주지 않아도 인증이 가능
