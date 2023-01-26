@@ -9,21 +9,28 @@ const Todo = (props) => {
 
     const checkboxEventHandler = (e) => {
         item.done = e.target.checked;
-        editItem();
+        editItem(item);
+        // item.done = e.target.checked;
+        // editItem();
     }
 
     const editEventHandler = (e) => {
-        item.title = e.target.value;
-        editItem();
+        setItem({...item, title: e.target.value});
+        // item.title = e.target.value;
+        // editItem();
     }
 
     const turnOffReadOnly = () => {
         setReadOnly(false);
     }
     const turnOnReadOnly = (e) => {
-        if(e.key === "Enter") {
+        if(e.key === "Enter" && readOnly === false) {
             setReadOnly(true);
+            editItem(item);
         }
+        // if(e.key === "Enter") {
+        //     setReadOnly(true);
+        // }
     }
 
     const deleteItem = props.deleteItem;
