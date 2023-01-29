@@ -37,4 +37,6 @@
     <fullyQualifiedTypeName name="com.example.demo.dto.TodoDTO"/>
     <fullyQualifiedTypeName name="com.example.demo.dto.ResponseDTO"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurer"/>
 </qualifiedTypeNameHistroy>

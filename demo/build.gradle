@@ -30,6 +30,8 @@ dependencies {
 	
 	// https://mvnrepository.com/artifact/com.google.guava/guava
 	implementation group: 'com.google.guava', name: 'guava', version: '31.1-jre'
+	// https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
+	compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 }
 
 tasks.named('test') {
